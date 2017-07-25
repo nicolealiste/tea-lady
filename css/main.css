@@ -1,1 +1,75 @@
 /* Escribe acá tus estilos*/
+*{
+	margin: 0;
+}
+body{
+	background-image: url(../img/coffe-pattern-med.jpg);
+	background-size: 400px;
+	background-repeat: repeat;
+}
+
+header{
+	background: #CEF6CE;
+	opacity: 0.7;
+	padding-top: 80px;/*nos da espacio hacia arriba*/
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	line-height: 55px;/*espacio entre lineas*/
+	padding-bottom: 50px;
+}
+h1{
+	font-family: 'Yeseva One', cursive;
+	font-weight: 100;
+	opacity: 1;
+}
+
+#formulario{
+	background: white;
+	opacity: 0.8;
+	padding-top:30px;
+	padding-bottom:80px;
+}
+
+p:first-child{
+
+	font-family: 'Zilla Slab', serif;
+	color: #888888;
+	font-size: 26px;
+	margin-left: 40px;
+	opacity: none;
+}
+.tea-section{
+	float: left;
+	max-width: 45%;
+	height: auto;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 30px;
+}
+
+form{
+	padding-top: 20px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+label{
+	font-family: 'Zilla Slab', serif;
+	color: #6cb33f;
+}
+
+input[type=text], select {
+	font-family: inherit;
+    width: 50%;
+    padding: 8px 8px;
+    margin: 3px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
