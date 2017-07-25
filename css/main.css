@@ -43,7 +43,7 @@ p:first-child{
 	float: left;
 	max-width: 45%;
 	height: auto;
-	padding-top: 40px;
+	padding-top: 60px;
 	padding-left: 20px;
 }
 
@@ -65,6 +65,7 @@ label{
 
 input[type=text], select {
 	font-family: inherit;
+	font-size: 15px;
     width: 50%;
     padding: 8px 8px;
     margin: 3px 0;
@@ -73,3 +74,24 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+input[type=checkbox]{
+	width: 4%;
+	margin-top: 20px;
+}
+
+button{
+	margin-top: 20px;
+	width: 50%;
+	font-size: 14px;
+	background-color: #6cb33f;
+	border:none;
+	color: whitesmoke;
+	padding: 12px 28px;
+    text-align: center;
+    border-radius: 8px;    
+}
+
+button:hover {
+    background-color: #CEF6CE;
+    color: grey;
+}
